@@ -1,0 +1,210 @@
+:root {
+    --primary-text-color:rgba(67,68,85,1);
+    --title-text-color:rgba(46,47,66,1);
+    --accent-color:rgba(77,90,229,1);
+    --hero-text-color:(255,255,255,1);
+    
+ }
+
+  body {
+   background-color: var(--hero-text-color);
+   font-family: 'Roboto', sans-serif;
+  }
+  
+ /* Header */
+  header {
+  background-color: var(--hero-text-color);
+      }
+  .email-style {
+    text-decoration: none;
+    color:#434455;
+  }
+ /* reset decor settings */
+
+  ul {
+   list-style: none;
+      }
+     .link {
+       text-decoration: none;
+    }
+ /* Logo */
+  .logo {
+    text-transform: uppercase ;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+    }
+
+  .logo-accent {
+    color: var(--accent-color);
+    }
+
+  .header-logo {
+    color: var(--title-text-color); 
+    }
+
+  .footer-logo {
+    color: var(--hero-text-color);
+   }
+
+ /* Header nav */
+  .site-nav .link {
+    color: var(--hero-bg-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    }
+
+  .site-nav .link:hover,
+  .site-nav .link:focus,
+  .site-nav .link-current,
+  .site-contacts .link:hover,
+  .site-contacts .link:focus,
+  .adress .link:hover,
+  .adress .link:focus {
+    color: var(--hero-bg-color);
+    }
+
+  .site-contacts .link {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:calc(24 / 16);
+    }
+
+ /* Hero */
+  .hero {
+    background-color:#2E2F42; 
+    }
+
+  .hero-title {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: calc(24 / 16);
+    }
+
+       /* Button */
+
+     .button { 
+       color:white;
+       background-color: var(--accent-color);
+
+       cursor: pointer;
+
+       font-family: inherit;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 16px;
+       line-height:calc(24 / 16);
+       }
+     .button-filter-all {
+      background-color: #4D5AE5;
+      color:white;
+     }
+      
+     .button-filter {
+        background-color:#E7E9FC;
+        color: #4D5AE5;
+        cursor: pointer;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height:calc(24 / 16);
+     }
+     .button-filter:hover, 
+     .button-filter:focus {
+        color: #4D5AE5;
+        background-color: var(--accent-color);
+     }
+
+     /* Our Team */
+     .section-team .name {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height:calc(24 / 20);
+        color: var(--title-text-color);
+        
+      }
+      
+      .section-team .text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:calc(24 / 16);
+        color: var(--primary-text-color);
+      }
+
+     /* What are we doing */
+     
+     .example .company {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height:calc(24 / 20);
+     }
+  
+     .example .type {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:calc(24 / 16);
+     }
+
+    /* Footer */
+ .footer {
+   
+   background-color:  #2e2f42;
+        }
+     .studio-white {
+	  color:#F4F4FD;
+     }
+
+     
+
+     .footer-text {
+	   color:#e7e9fc;
+     }
+     .footer-logo {
+      color: #e7e9fc;
+      text-decoration: none;
+     }
+     a {
+      text-decoration: none;
+     }
+
+
+   /* колір основного тексту #ffffff */
+
+   /* колір бекграунду ефектів солюжн #2E2F42 */
+
+   /* колір кнопки ордер сервіс #4D5AE5 */
+
+   /* колір заголовку що ми робимо #2E2F42 */
+
+   /* колір дрібного тексту #434455 */
+
+   /* колір бекграунду наша команда #F4F4FD */
+
+   /* колір бекграунду хедер #E7E9FC */
+
+  
+  
+
+   
+  
